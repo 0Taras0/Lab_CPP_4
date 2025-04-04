@@ -1,5 +1,4 @@
 #include <iostream>
-#include <ctime>
 #include "Airline.h"
 #include "FriendAirline.h"
 

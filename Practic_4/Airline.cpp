@@ -35,7 +35,7 @@ vector<Flight> Airline::getAllFlights()
 
 vector<Flight> getFlightsByDayOfWeek(Airline& airline, int dayOfWeek) {
 	vector<Flight> flightsByDay;
-	for (auto& flight : airline.getAllFlights()) {
+	for (auto& flight : airline.m_flights) {
 		if (flight.getDayOfWeek() == dayOfWeek) {
 			flightsByDay.push_back(flight);
 		}
